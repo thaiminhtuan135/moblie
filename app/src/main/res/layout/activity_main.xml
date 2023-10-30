@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textTSVLH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Sinh Viên Đăng Ký Lớp Học"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ListView
+        android:id="@+id/listSVLH"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/btnTao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:text="Student" />
+
+        <Button
+            android:id="@+id/btnTao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:text="Class" />
+
+        <Button
+            android:id="@+id/btnTao3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:text="AddSVLH" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="93dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="58dp"
+            android:orientation="vertical"
+            android:text="Submit" />
+
+        <EditText
+            android:id="@+id/edtSearch"
+            android:layout_width="254dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:ems="10"
+            android:hint="Nhập tên "
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+</LinearLayout>

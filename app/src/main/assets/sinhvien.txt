@@ -1,0 +1,4 @@
+8,minhtuan,2000,lala,nam 2
+9,minhtuan,2000,he,nam 2
+10,minhtuan,2000,bacbinh,nam 2
+11,minhtuan,2000,ninh binh,nam 2

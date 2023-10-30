@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textTSVLH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Đăng Ký"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtidMSV"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:hint="Mã sinh viên"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtidMaLop"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:hint="Mã lớp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtKyHoc"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:hint="Kì học"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtSTC"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:hint="Số tín chỉ"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnDK"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="DangKy" />
+</LinearLayout>
